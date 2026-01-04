@@ -50,27 +50,6 @@ header nav a:hover {
   color: #00E5FF;
 }
 
-/* RAPAPI TEKS ARTIKEL */
-.content,
-.about,
-.section,
-.text-content {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-.content p,
-.about p,
-.section p,
-.text-content p {
-  text-align: justify;
-  line-height: 1.8;
-  margin-bottom: 16px;
-  font-size: 16px;
-  color: #eaeaea;
-}
-
 /* Judul */
 .section h2,
 .about h2 {
@@ -415,6 +394,32 @@ main > p {
   padding: 0 15px;
   text-align: left;
 }
+/* ====================== */
+/* FINAL RAPAPI TEKS */
+/* ====================== */
+
+.text-wrap {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.text-wrap h1,
+.text-wrap h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #00E5FF;
+}
+
+.text-wrap p {
+  font-size: 16.5px;
+  line-height: 1.9;
+  text-align: justify;
+  margin-bottom: 16px;
+  color: #eaeaea;
+}
+
+
 
 
 
