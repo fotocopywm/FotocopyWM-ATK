@@ -403,10 +403,11 @@ main > p {
  /* === PERAPI TEKS PENJELASAN (FIX FINAL) === */
 
 .page-title {
-  text-align: center;
+  text-align: justify;
   margin: 40px auto 25px auto;
   color: #00E5FF;
 }
+
 
 
 
