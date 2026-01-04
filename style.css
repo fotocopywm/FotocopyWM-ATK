@@ -408,6 +408,14 @@ main > p {
   text-align: justify;
   color: #eaeaea;
 }
+/* SAMAKAN POSISI JUDUL & TEKS PENJELASAN */
+.page-title {
+  max-width: 900px;
+  margin: 40px auto 20px auto;
+  padding: 0 15px;
+  text-align: left;
+}
+
 
 
 
