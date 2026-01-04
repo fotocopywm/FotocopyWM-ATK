@@ -392,8 +392,7 @@ main > p {
   color: #00E5FF;
 }
 
-.text-wrap p,
-section p {
+.text-wrap p {
   font-size: 16.5px;
   line-height: 1.9;
   text-align: justify;
@@ -402,17 +401,12 @@ section p {
 }
 
  /* === PERAPI TEKS PENJELASAN (FIX FINAL) === */
-section p {
-  max-width: 900px;
-  margin: 0 auto 16px auto;
-  line-height: 1.8;
-  text-align: justify;
-  padding: 0 15px;
-}
+
 .page-title {
   text-align: center;
   margin: 40px auto 25px auto;
   color: #00E5FF;
 }
+
 
 
