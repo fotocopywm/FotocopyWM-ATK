@@ -397,8 +397,19 @@ section p {
   text-align: justify;
   padding: 0 15px;
 }
-
 }
+/* === FIX TEKS PEMBUKA (ATAS) === */
+body > p,
+main > p {
+  max-width: 900px;
+  margin: 20px auto 16px auto;
+  padding: 0 15px;
+  line-height: 1.8;
+  text-align: justify;
+  color: #eaeaea;
+}
+
+
 
 
 
