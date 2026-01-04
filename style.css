@@ -386,7 +386,6 @@ main > p {
   padding: 0 15px;
 }
 
-.text-wrap h1,
 .text-wrap h2 {
   text-align: center;
   margin-bottom: 25px;
@@ -410,3 +409,10 @@ section p {
   text-align: justify;
   padding: 0 15px;
 }
+.page-title {
+  text-align: center;
+  margin: 40px auto 25px auto;
+  color: #00E5FF;
+}
+
+
