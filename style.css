@@ -343,7 +343,7 @@ a:hover {
     padding: 3px 5px;
     white-space: nowrap; /* Biar kata tidak terpotong */
   }
-  
+}
 /* ====================== */
 /* SCROLL OFFSET FIX */
 /* ====================== */
@@ -368,15 +368,7 @@ a:hover {
     scroll-margin-top: 120px;
   }
 }
-  /* === PERAPI TEKS PENJELASAN (FIX FINAL) === */
-section p {
-  max-width: 900px;
-  margin: 0 auto 16px auto;
-  line-height: 1.8;
-  text-align: justify;
-  padding: 0 15px;
-}
-}
+ 
 /* === FIX TEKS PEMBUKA (ATAS) === */
 body > p,
 main > p {
@@ -387,16 +379,6 @@ main > p {
   text-align: justify;
   color: #eaeaea;
 }
-/* SAMAKAN POSISI JUDUL & TEKS PENJELASAN */
-.page-title {
-  max-width: 900px;
-  margin: 40px auto 20px auto;
-  padding: 0 15px;
-  text-align: left;
-}
-/* ====================== */
-/* FINAL RAPAPI TEKS */
-/* ====================== */
 
 .text-wrap {
   max-width: 900px;
@@ -411,7 +393,8 @@ main > p {
   color: #00E5FF;
 }
 
-.text-wrap p {
+.text-wrap p,
+section p {
   font-size: 16.5px;
   line-height: 1.9;
   text-align: justify;
@@ -419,10 +402,11 @@ main > p {
   color: #eaeaea;
 }
 
-
-
-
-
-
-
-
+ /* === PERAPI TEKS PENJELASAN (FIX FINAL) === */
+section p {
+  max-width: 900px;
+  margin: 0 auto 16px auto;
+  line-height: 1.8;
+  text-align: justify;
+  padding: 0 15px;
+}
