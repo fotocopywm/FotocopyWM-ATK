@@ -389,6 +389,16 @@ a:hover {
     scroll-margin-top: 120px;
   }
 }
+  /* === PERAPI TEKS PENJELASAN (FIX FINAL) === */
+section p {
+  max-width: 900px;
+  margin: 0 auto 16px auto;
+  line-height: 1.8;
+  text-align: justify;
+  padding: 0 15px;
 }
+
+}
+
 
 
